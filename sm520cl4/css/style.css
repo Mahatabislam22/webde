@@ -1,0 +1,304 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family:  sans-serif;;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: serif;
+}
+img{
+	max-width: 100%;
+	height: auto;
+
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+text-decoration: none;
+}
+.container{
+	width: 1140px;
+	margin: 0px auto;
+}
+.header{
+	width: 100%;
+	padding: 10px 0px;
+	background:#eee;
+	
+}
+.navbar{
+	display: flex;
+	justify-content: space-between;
+
+
+}
+.navbar .logo img{
+	width: 100px;
+
+}
+.navbar .menu{
+	display: block;
+
+}
+.navbar .menu li{
+	list-style: none;
+	display: inline-block;
+    margin: 30px 0px 0px;
+
+}
+.navbar .menu li a{
+	font-size: 14px;
+	font-weight: 600px;
+	color: #000;
+	margin: 0px 15px;
+	text-transform: capitalize;
+
+}
+.buttons{
+	display: block;
+}
+.buttons .btn-primary{
+	display: inline-block;
+	padding: 10px 30px;
+	background: #1e266d;
+	font-size: 14px;
+	font-weight: 500;
+	color: #fff;
+	margin: 20px 0px 0px;
+}
+.banner{
+	width: 100%;
+	padding: 80px 0px;
+}
+.inner-banner{
+	display: flex;
+	align-items: center;
+}
+.inner-left{
+	flex-basis: 50%;
+
+}
+.inner-left h1{
+   font-size: 52px;
+   line-height: 62px;
+   font-weight: 700;
+   color:  #1e266d;
+   margin: : 0px 0px 10px;
+}
+
+.inner-left h5{
+   font-size: 26px;
+   line-height: 36px;
+   font-weight: 300;
+   color:  #1e266d;
+
+}
+.inner-left .btn-primary{
+	display: inline-block;
+	padding: 15px 30px;
+	background: #1e266d;
+	font-size: 14px;
+	font-weight: 500;
+	color: #fff;
+	margin: 20px 0px 0px;
+	border-radius:5px;
+	text-transform: capitalize;
+
+}
+.inner-right{
+	flex-basis: 50%;
+}
+.feature{
+	width: 100%;
+	padding: 80px 0px;
+}
+.inner-feature{
+	display: flex;
+
+}
+.feature-box{
+	display: flex; 
+	padding:30px 25px;
+	margin: 0px 15px;
+	border-radius: 11px;
+}
+.icons{
+  flex-basis: 20%;
+}
+.icons .fa{
+	font-size: 20px;
+	color: #fff;
+}
+.content{
+	flex-basis: 85%;
+}
+.content h4{
+	font-size: 18px;
+	font-weight: 600px;
+	line-height: 28px;
+	color: #fff;
+	margin: 0px 0px 15px;
+
+}
+.content p{
+	font-size: 14px;
+	font-weight: 400px;
+	line-height: 24px;
+	color: #fff;
+	margin: 0px 0px 15
+
+}
+.bg1{
+	background: #F9799A;
+
+}
+.bg2{
+  background: #61C4D8;
+}
+.bg3{
+ background: #1E266D;
+}
+.inner-left h1{
+	font-weight:300px;
+}
+.inner-left h3{
+	font-size: 26px;
+}
+.inner-left h5{
+	font-weight:100px;
+	font-size: 26px;
+}
+/*project start here */
+
+	.project{
+		width: 100%;
+	padding: 80px 0px;
+
+	}
+
+.project .inner-project{
+	display: flex;
+	align-items: center;
+
+}
+.project.inner-left{
+	flex-basis: 50%;
+
+}
+.project.inner-left h1{
+   font-size: 32px;
+   line-height: 62px;
+   font-weight: 700;
+   color:  #1e266d;
+   margin: : 0px 0px 10px;
+}
+
+.project.inner-left h5{
+   font-size: 28px;
+   line-height: 36px;
+   font-weight: 300;
+   color:  #1e266d;
+}
+
+.section{
+	display: block;
+}
+
+.container{
+	width: 1140px;
+	margin: 0px auto;
+	height: auto;
+	padding-bottom: 40px;
+}
+.addressbox{
+	 width: 100%;
+    background-color: #2E367D;
+    padding: 80px 0px;
+    border-radius: 10px;
+}
+.address{
+
+     display: flex;
+    justify-content: space-around;
+    align-items:  baseline;
+    font-family: sans-serif;
+    color: white;
+}
+.address h4{
+    font-size: 24px;
+    line-height: 34px;
+}
+.address p{
+    font-size: 18px;
+    line-height: 1.8;
+    font-weight: 300;
+}
+.connectionbox{
+    width: 100%;
+    display: flex;
+    align-items: first baseline;
+    margin: 0px auto;
+    padding: 0px 15px;
+}
+.connectionbox01{
+    flex-basis: 25%;
+    margin: 0px 10px;
+    color: #91A3BB;
+    padding: 0px 15px;
+}
+.connectionbox h6{
+    font-size: 16px;
+    line-height: 26px;
+    color: #1E266D;
+}
+.connectionbox p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #1E266D;
+}
+.connectionbox02{
+    flex-basis: 25%;
+    margin: 0px 10px;
+    color: #91A3BB;
+    padding: 0px 15px;
+}
+.connectionbox li{
+    font-size: 16px;
+    line-height: 26px;
+    color: #1E266D;
+    list-style: none;
+}
+.connectionbox a{
+    text-decoration: none;
+    color: #3D4486;
+}
+.connectionbox03{
+    flex-basis: 25%;
+    margin: 0px 10px;
+    color: #91A3BB;
+    padding: 0px 15px;
+}
+.connectionbox04{
+    flex-basis: 25%;
+    margin: 0px 10px;
+    color: #91A3BB;
+    padding: 0px 15px;
+}
+.footerbox {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px;
+}
+.footerbox .copyright p {
+    text-align: center;
+    font-size: 14px;
+    line-height: 14px;
+    margin-top: 15px;
+    color: #91A3BB;
+}
